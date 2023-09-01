@@ -1,0 +1,34 @@
+/* Navigation container */
+nav {
+    background-color: #5f5d5d;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Navigation list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* List items */
+  li {
+    margin: 0 15px;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  a:hover {
+    color: #ff5722; /* Change the color to your desired hover effect color */
+  }
+  

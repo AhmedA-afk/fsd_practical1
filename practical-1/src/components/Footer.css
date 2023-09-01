@@ -1,0 +1,8 @@
+/* Center align the content within the footer */
+.footer {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+  }
+  

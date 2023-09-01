@@ -1,0 +1,26 @@
+/* Header container */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Logo image */
+  .logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 0%; /* Makes it a circular logo if the image is square */
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin: 10px 0;
+  }
+  
+  /* Tagline */
+  p {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  

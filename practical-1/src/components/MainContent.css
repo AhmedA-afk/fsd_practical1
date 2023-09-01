@@ -1,0 +1,43 @@
+/* Main content container */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Add space between MainContent and Sidebar */
+    flex: 2; /* Make it take up more space than the Sidebar in a flex layout */
+  }
+  
+  /* Main content heading */
+  .main-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Main content text */
+  .main-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* YouTube video container */
+  .youtube-video {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Medium article section */
+  .medium-article {
+    margin-top: 30px;
+  }
+  
+  /* Google Maps location */
+  .google-maps {
+    margin-top: 30px;
+  }
+  
+  /* News headlines section */
+  .news-headlines {
+    margin-top: 30px;
+  }
+  

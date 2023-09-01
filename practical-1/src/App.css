@@ -1,0 +1,63 @@
+/* Reset some default styles for body and div elements */
+body, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply some default styles to the whole app */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define styles for the header, navigation, and footer (adjust as needed) */
+.header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.navigation {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Create a container for the main content and sidebar */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Define styles for the main content */
+.main-content {
+  flex: 70%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+/* Define styles for the sidebar */
+.sidebar {
+  flex: 30%; /* Adjust the width as needed */
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+  .main-content, .sidebar {
+    flex: 100%;
+  }
+}
